@@ -8,7 +8,7 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
         <div class="col-lg-6 mx-auto text-center">
           <h2 class="mb-0">Trusted by over</h2>
           <h2 class="text-gradient text-success mb-3">
-            1,679,477+ web developers
+            + web developers
           </h2>
           <p class="lead">
             Many Fortune 500 companies, startups, universities and governmental

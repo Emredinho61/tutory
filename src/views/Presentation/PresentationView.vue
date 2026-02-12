@@ -16,7 +16,7 @@ import PresentationPages from "./Sections/PresentationPages.vue";
 import PresentationExample from "./Sections/PresentationExample.vue";
 import data from "./Sections/Data/designBlocksData";
 import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
-import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
+// import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
@@ -50,23 +50,14 @@ onUnmounted(() => {
     </div>
   </div>
   <Header>
-    <div
-      class="page-header min-vh-75"
-      :style="`background-image: url(${vueMkHeader})`"
-      loading="lazy"
-    >
+    <div class="page-header min-vh-75" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <h1
-              class="pt-3 mt-n5 me-2"
-              style="color: #1a1a1a"
-              :style="{ display: 'inline-block ' }"
-            >
-              Tutory
+            <h1 class="pt-3 mt-n5 me-2" style="color: #1a1a1a" :style="{ display: 'inline-block ' }">
+              Tutoratus
             </h1>
-            <p class="text-lead px-5 mt-3"               style="color: #000000"
- :style="{ fontWeight: '500' }">
+            <p class="text-lead px-5 mt-3" style="color: #000000" :style="{ fontWeight: '500' }">
               Besser sein als Gestern
             </p>
           </div>
@@ -85,85 +76,51 @@ onUnmounted(() => {
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <FilledInfoCard
-            class="p-4"
-            :color="{ text: 'white', background: 'bg-gradient-success' }"
-            :icon="{ component: 'flag', color: 'white' }"
-            title="Getting Started"
-            description="Check the possible ways of working with our product and the necessary files for building your own project."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
-              label: { text: 'Let\'s start', color: 'white' }
-            }"
-          />
+          <FilledInfoCard class="px-lg-1 mt-lg-0 mt-4 p-4" height="h-100"
+            :icon="{ component: 'wifi', color: 'success' }" title="Online"
+            description="Auf deiner bevorzugten Plattform, wie Microsoft Teams, Zoom, usw. überall erreichbar." :action="{
+              label: { text: '' }
+            }" />
         </div>
         <div class="col-lg-4">
-          <FilledInfoCard
-            class="px-lg-1 mt-lg-0 mt-4 p-4"
-            height="h-100"
-            :icon="{ component: 'precision_manufacturing', color: 'success' }"
-            title="Plugins"
-            description="Get inspiration and have an overview about the plugins that we
-                used to create the Material Kit."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/input/material-kit/',
-              label: { text: 'Read more' }
-            }"
-          />
+          <FilledInfoCard class="px-lg-1 mt-lg-0 mt-4 p-4" height="h-100"
+            :icon="{ component: 'home_work', color: 'success' }" title="Bei dir zu Hause"
+            description="Hausbesuche sind nach Absprache möglich." :action="{
+              label: { text: '' }
+            }" />
         </div>
         <div class="col-lg-4">
-          <FilledInfoCard
-            class="px-lg-1 mt-lg-0 mt-4 p-4"
-            :icon="{ component: 'receipt_long', color: 'success' }"
-            title="Utility Classes"
-            description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes."
-            :action="{
+          <FilledInfoCard class="px-lg-1 mt-lg-0 mt-4 p-4" :icon="{ component: 'receipt_long', color: 'success' }"
+            title="Öffentliche Lernplätze"
+            description="Wir bieten auch 1-zu-1 Lernsessions in der Universitätsbibliothek Freiburg an." :action="{
               route:
                 'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
-              label: { text: 'Read more' }
-            }"
-          />
+              label: { text: '' }
+            }" />
         </div>
       </div>
     </div>
     <PresentationTestimonials />
 
-    <div
-      class="container-fluid mt-sm-5 border-radius-xl"
-      :style="{
-        background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
-      }"
-    >
-      <div
-        class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-        :style="{
-          backgroundImage: `url(${wavesWhite})`
-        }"
-        loading="lazy"
-      >
+    <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
+      background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
+    }">
+      <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" :style="{
+        backgroundImage: `url(${wavesWhite})`
+      }" loading="lazy">
         <span class="mask bg-gradient-dark"></span>
         <div class="container">
           <div class="row">
             <div class="d-flex justify-content-center p-5">
               <div class="col-lg-8 ms-lg-5 text-center">
                 <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
+                  Du bist bereit deine Noten auf ein neues Level zu bringen?
                 </h3>
                 <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
+                  Dann kontaktiere uns über unser Kontaktformular oder schreibe uns eine WhatsApp Nachricht.
                 </p>
 
-                <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
-                  >Download Now</a
-                >
+                <a class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4" href="/kontakt">Kontaktiere uns</a>
               </div>
             </div>
           </div>
@@ -171,124 +128,18 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-          <h3>Available on these technologies</h3>
-          <div class="d-flex justify-content-center mt-3 flex-wrap">
-            <a
-              href="https://www.creative-tim.com/product/material-kit"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library"
-            >
-              <img
-                :src="logoBootstrap"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5 ms-3"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoTailwind"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/vue-material-kit-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Vue.js - Is a Progressive JavaScript Framework"
-            >
-              <img
-                :src="logoVue"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoAngular"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/material-kit-react-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="React – A JavaScript library for building user interfaces"
-            >
-              <img
-                :src="logoReact"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoSketch"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
+            <h4 class="mb-1">Unterstütze uns auf Social Media!</h4>
+            <p class="lead mb-0">Teile deine POSITIVE Erfahrung mit deinen Freunden. Für jeden teilnehmenden Freund oder
+              Freundin kriegst du zwei Nachhilfestunden umsonst.</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-            <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
-              component="twitter"
-              color="twitter"
-              label="Tweet"
-            />
-            <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
-              component="facebook-square"
-              color="facebook"
-              label="Share"
-            />
-            <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
+            <MaterialSocialButton route="" component="facebook-square" color="twitter" label="Instagram" class="btn-grad" />
+            <MaterialSocialButton route="" component="facebook-square" label="Threads" class="btn-grad2" />
+            <MaterialSocialButton route="" component="facebook-square" label="WhatsApp" class="btn-grad3" />
           </div>
         </div>
       </div>
@@ -296,3 +147,78 @@ onUnmounted(() => {
   </div>
   <DefaultFooter />
 </template>
+<style scoped>
+.btn-grad {
+  background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%)
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.btn-grad2 {
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%)
+}
+
+.btn-grad2 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.btn-grad3 {
+  background-image: linear-gradient(to right, #76b852 0%, #8DC26F 51%, #76b852 100%)
+}
+
+.btn-grad3 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad3:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+</style>

@@ -1,5 +1,5 @@
 <script setup>
-import logoDark from "@/assets/img/logos/tutory-logo.png";
+import logoDark from "@/assets/img/logos/Tutoratus-logo.png";
 defineProps({
   brand: {
     type: Object,
@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Tutory",
+      name: "Tutoratus",
       logo: logoDark,
       route: "/"
     })
@@ -139,9 +139,9 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               Alle Rechte vorbehalten. Copyright ©
               {{ new Date().getFullYear() }}
-              Tutory by
+              Tutoratus by
               <a href="/"
-                >Tutory</a
+                >Tutoratus</a
               >.
             </p>
           </div>

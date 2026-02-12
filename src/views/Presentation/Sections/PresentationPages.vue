@@ -12,53 +12,30 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
             <MaterialBadge color="success" class="mb-3"
-              >Boost creativity</MaterialBadge
+              >Team</MaterialBadge
             >
-            <h2 class="">With our coded pages</h2>
-            <p class="lead">
-              The easiest way to get started is to use one of our <br />
-              pre-built example pages.
-            </p>
+            <h2 class="">Unser Team</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="container mt-5">
+    <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <div class="row mt-4">
-            <div class="col-md-6 mt-md-0 mt-5">
+          <div class="row">
+            <div class="col-md-6 mt-md-0">
               <ExampleCard
                 class="shadow-lg"
-                title="About Us Page"
+                title="Emre Bayazitoglu - CEO"
                 image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/about-us.jpg"
                 route="ueber-uns"
               />
             </div>
-            <div class="col-md-6 mt-md-0 mt-5">
+            <div class="col-md-6 mt-md-0">
               <ExampleCard
                 class="shadow-lg"
-                title="Contact Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/contact.jpg"
-                route="kontakt"
-              />
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col-md-6 mt-md-0 mt-5">
-              <ExampleCard
-                classes="mt-5"
-                title="Sign In Page"
-                :image="imgSigninCover"
-                route="signin-basic"
-              />
-            </div>
-            <div class="col-md-6 mt-md-0 mt-5">
-              <ExampleCard
-                classes="shadow-lg"
-                title="Author Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/author.jpg"
-                route="leistungen"
+                title="Usami Othman - Handlanger"
+                image="\src\assets\img\aboutus\Usami.jpeg"
               />
             </div>
           </div>
@@ -66,11 +43,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="col-md-3 mx-auto mt-md-0 mt-3">
           <div class="position-sticky" style="top: 100px !important">
             <h3>
-              Presentation Pages for Company, Landing Pages, Blogs and Support
+              Die Köpfe hinter Tutoratus!
             </h3>
             <h6 class="text-secondary font-weight-normal">
-              These is just a small selection of the multiple possibitilies you
-              have. Focus on the business, not on the design.
+              Unsere Motivation zur Gründung unseres Nachhilfestudios war es, Schülerinnen und Schüler individuell zu fördern und ihnen nicht nur bessere Noten, sondern auch mehr Selbstvertrauen zu ermöglichen. Wir haben gesehen, dass im regulären Unterricht oft die Zeit für persönliche Unterstützung fehlt - genau hier setzen wir an.
             </h6>
           </div>
         </div>
