@@ -201,6 +201,12 @@ watch(
                         Home
                       </div>
                       <RouterLink
+                        to="/"
+                        class="dropdown-item border-radius-md"
+                      >
+                        <span>Startseite</span>
+                      </RouterLink>
+                      <RouterLink
                         :to="{ name: 'leistungen' }"
                         class="dropdown-item border-radius-md"
                       >

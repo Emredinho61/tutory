@@ -1,5 +1,5 @@
 <script setup>
-import logoDark from "@/assets/img/logos/Tutoratus-logo.png";
+import logoDark from "@/assets/img/logos/tutoratus-logo.png";
 defineProps({
   brand: {
     type: Object,

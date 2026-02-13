@@ -38,7 +38,7 @@ onMounted(() => {
                   <div
                     class="p-5 ps-sm-8 position-relative text-start my-auto z-index-2"
                   >
-                    <h3 class="text-white">Contact Information</h3>
+                    <h3 class="text-white">Kontaktiere uns</h3>
                     <p class="text-white opacity-8 mb-4">
                       Fill up the form and our Team will get back to you within
                       24 hours.
