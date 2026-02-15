@@ -89,7 +89,7 @@ export default {
       </svg>
     </div>
     <div class="mt-2 ms-2">
-      <h6 class="mb-0">{{ title }}</h6>
+      <span class="mb-0" style="font-size: 19px;">{{ title }}</span>
       <p class="text-secondary text-sm font-weight-normal">
         {{ subtitle }}
       </p>

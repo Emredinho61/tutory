@@ -13,15 +13,26 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+import imgMath from "@/assets/subjects/Mathematik.png"
+import imgAlgo from "@/assets/subjects/AlgorithmenUndDatenstrukturen.png"
+import imgDatenbanken from "@/assets/subjects/Datenbanken.png"
+import imgDeutsch from "@/assets/subjects/Deutsch.png"
+import imgETechnik from "@/assets/subjects/Elektrotechnik.png"
+import imgEnglisch from "@/assets/subjects/Englisch.png"
+import imgFTechnik from "@/assets/subjects/Fahrzeugtechnik.png"
+import imgGGK from "@/assets/subjects/Gemeinschaftskunde.png"
+import imgGeo from "@/assets/subjects/Geografie.png"
+import imgGeschichte from "@/assets/subjects/Geschichte.png"
+import imghoehreMathe from "@/assets/subjects/hoehereMathematik.png"
+import imgInfo from "@/assets/subjects/Informatik.png"
+import imgKFZ from "@/assets/subjects/KFZMechatronik.png"
+import imgMeister3 from "@/assets/subjects/MeisterpruefungTeil_III.png"
+import imgMeister4 from "@/assets/subjects/MeisterTeil_IV.png"
+import imgPhysik from "@/assets/subjects/Physik.png"
+import imgProgrammierung from "@/assets/subjects/Programmierung.png"
+import imgtechnischeInfo from "@/assets/subjects/technischeInformatik.png"
+import imgWirtschaft from "@/assets/subjects/Wirtschaft.png"
 
-import imgPricing from "@/assets/img/pricing.png";
-import imgFeatures from "@/assets/img/features.png";
-import imgPagination from "@/assets/img/pagination.png";
-import imgAlert from "@/assets/img/alerts.jpg";
-import imgPopover from "@/assets/img/popovers.jpg";
-import imgModal from "@/assets/img/modals.jpg";
 
 export default [
   {
@@ -30,24 +41,24 @@ export default [
       "Klasse 1-4",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: imgMath,
         title: "Mathe",
         // subtitle: "10 Examples",
-        route: "page-headers",
+        // // route: "page-headers",
         pro: false
       },
       {
-        image: imgFeatures,
+        image: imgDeutsch,
         title: "Deutsch",
         // subtitle: "14 Examples",
-        route: "page-features",
+        // // route: "page-features",
         pro: false
       },
       {
-        image: imgPricing,
+        image: imgEnglisch,
         title: "Englisch",
         // subtitle: "8 Examples",
-        route: "presentation",
+        // route: "presentation",
         pro: false
       }
     ]
@@ -57,66 +68,52 @@ export default [
     description: "Klasse 5-10",
     items: [
       {
-        image: `${imagesPrefix}/navbars.jpg`,
+        image: imgMath,
         title: "Mathe",
         // subtitle: "",
-        route: "navigation-navbars",
+        // // route: "navigation-navbars",
         pro: false
       },
       {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
+        image: imgDeutsch,
         title: "Deutsch",
         // subtitle: "2 Nav Tabs",
-        route: "navigation-navtabs",
+        // // route: "navigation-navtabs",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgEnglisch,
         title: "Englisch",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
-        title: "Technik",
-        // subtitle: "3 Examples",
-        route: "navigation-pagination",
-        pro: false
-      },
-      {
-        image: imgPagination,
+        image: imgPhysik,
         title: "Physik",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgGeo,
         title: "Geografie",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgGeschichte,
         title: "Geschichte",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
-        title: "Ethik",
-        // subtitle: "3 Examples",
-        route: "navigation-pagination",
-        pro: false
-      },
-      {
-        image: imgPagination,
+        image: imgInfo,
         title: "Informatik",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       }
     ]
@@ -127,31 +124,31 @@ export default [
       "Klasse 11-13",
     items: [
             {
-        image: `${imagesPrefix}/navbars.jpg`,
+        image: imgMath,
         title: "Mathe",
         // subtitle: "",
-        route: "navigation-navbars",
+        // route: "navigation-navbars",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgEnglisch,
         title: "Englisch",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgInfo,
         title: "Informatik",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
       {
-        image: imgPagination,
+        image: imgWirtschaft,
         title: "Wirtschaft",
         // subtitle: "3 Examples",
-        route: "navigation-pagination",
+        // route: "navigation-pagination",
         pro: false
       },
     ]
@@ -162,45 +159,38 @@ export default [
       "Ausbildungsberufe",
     items: [
       {
-        image: imgAlert,
+        image: imgDeutsch,
         title: "Deutsch",
         // subtitle: "4 Examples",
-        route: "ac-alerts",
+        // route: "ac-alerts",
         pro: false
       },
       {
-        image: `${imagesPrefix}/toasts.jpg`,
+        image: imgGGK,
         title: "Gemeinschaftskunde",
         // subtitle: "3 Examples",
-        route: "presentation",
+        // route: "presentation",
         pro: false
       },
       {
-        image: imgPopover,
-        title: "Religion",
-        // subtitle: "2 Examples",
-        route: "ac-tooltips-popovers",
-        pro: false
-      },
-      {
-        image: imgModal,
+        image: imgWirtschaft,
         title: "Wirtschaft",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       },
             {
-        image: imgAlert,
+        image: imgMeister3,
         title: "Betriebswirtschaftslehre (Meister Teil III)",
         // subtitle: "4 Examples",
-        route: "ac-alerts",
+        // route: "ac-alerts",
         pro: false
       },
       {
-        image: `${imagesPrefix}/toasts.jpg`,
+        image: imgMeister4,
         title: "Ausbildereignung (Meister Teil IV)",
         // subtitle: "3 Examples",
-        route: "presentation",
+        // route: "presentation",
         pro: false
       },
     ]
@@ -211,24 +201,24 @@ export default [
       "Schwerpunkt KFZ",
     items: [
       {
-        image: imgModal,
+        image: imgKFZ,
         title: "KFZ-Mechatronik",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       },
       {
-        image: imgModal,
+        image: imgFTechnik,
         title: "Fahrzeugtechnik",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       },
       {
-        image: imgModal,
+        image: imgETechnik,
         title: "Elektrotechnik",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       }
     ]
@@ -239,38 +229,38 @@ export default [
       "Informatik/Mathe/Programmierung",
     items: [
       {
-        image: imgAlert,
+        image: imghoehreMathe,
         title: "höhere Mathematik",
         // subtitle: "4 Examples",
-        route: "ac-alerts",
+        // route: "ac-alerts",
         pro: false
       },
       {
-        image: `${imagesPrefix}/toasts.jpg`,
+        image: imgProgrammierung,
         title: "Programmierung",
         subtitle: "verschiedene Programmiersprachen: C, C#, Python, javascript...",
-        route: "presentation",
+        // route: "presentation",
         pro: false
       },
       {
-        image: imgPopover,
+        image: imgAlgo,
         title: "Algorithmen und Datenstrukturen",
         // subtitle: "2 Examples",
-        route: "ac-tooltips-popovers",
+        // route: "ac-tooltips-popovers",
         pro: false
       },
       {
-        image: imgModal,
+        image: imgtechnischeInfo,
         title: "Technische Informatik",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       },
       {
-        image: imgModal,
+        image: imgDatenbanken,
         title: "Datenbanken",
         // subtitle: "5 Examples",
-        route: "ac-modals",
+        // route: "ac-modals",
         pro: false
       }
     ]
