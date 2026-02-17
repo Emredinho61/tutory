@@ -36,12 +36,16 @@ function debounce(func, wait, immediate) {
 
 // Function for smooth scroll to element
 function smoothToPricing(id) {
-  if (document.getElementById(id)) {
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth"
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
     });
   }
 }
+
 
 // Debounce function
 function debounce(func, wait, immediate) {

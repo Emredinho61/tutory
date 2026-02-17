@@ -4,9 +4,13 @@ import { onMounted, onUnmounted } from "vue";
 //example components
 import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
+import PresentationExample from "@/views/Presentation/Sections/PresentationExample.vue";
+import data from "@/views/Presentation/Sections/Data/designBlocksData";
+
+
 
 //image
-import bg0 from "@/assets/img/bg9.jpg";
+import bg0 from "@/assets/services/leistungen.png";
 
 //dep
 import Typed from "typed.js";
@@ -45,7 +49,7 @@ onUnmounted(() => {
   <DefaultNavbar
     :action="{
       route: 'javascript:;',
-      label: 'Buy Now',
+      label: '+49 12345678',
       color: 'btn-white',
     }"
     transparent
@@ -60,35 +64,19 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Work with an amazing <span class="text-white" id="typed"></span>
+              Du brauchst Hilfe in <span class="text-white" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>team</h1>
-              <h1>design</h1>
-              <h1>tool</h1>
+              <h1>Deutsch?</h1>
+              <h1>Englisch?</h1>
+              <h1>Mathe?</h1>
+              <h1>Informatik?</h1>
+              <h1>Physik?</h1>
+              <h1>der Ausbildung?</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              Dann lerne unsere kompetenten Nachhilfelehrer kennen.
             </p>
-            <button type="submit" class="btn bg-white text-dark">
-              Create Account
-            </button>
-            <h6 class="text-white mb-2 mt-5">Find us on</h6>
-            <div class="d-flex justify-content-center">
-              <a href="javascript:;"
-                ><i class="fab fa-facebook text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-instagram text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-twitter text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-google-plus text-lg text-white"></i
-              ></a>
-            </div>
           </div>
         </div>
       </div>
@@ -98,6 +86,7 @@ onUnmounted(() => {
     <Information />
     <AboutTeam />
     <Featuring />
+        <PresentationExample :data="data" />
     <Newsletter />
   </div>
   <DefaultFooter />

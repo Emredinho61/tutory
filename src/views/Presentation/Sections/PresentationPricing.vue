@@ -34,7 +34,7 @@ import SimplePricingCard from "@/examples/cards/pricingCards/SimplePricingCard.v
             :price="{ currency: '$', amount: '79' }"
             :action="{
               route: '/',
-              label: 'Buy now',
+              label: '+49 12345678',
               color: 'bg-gradient-dark',
             }"
             :specifications="[
@@ -86,7 +86,7 @@ import SimplePricingCard from "@/examples/cards/pricingCards/SimplePricingCard.v
             :action="{
               route:
                 'https://secure.avangate.com/order/checkout.php?PRODS=37189144&OPTIONS37189144=ENTERPRISE&CART=1&CARD=2&CLEAN_CART=1&SHORT_FORM=1',
-              label: 'Buy now',
+              label: '+49 12345678',
               color: 'bg-gradient-dark',
             }"
             :specifications="[

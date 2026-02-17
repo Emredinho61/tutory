@@ -39,6 +39,7 @@ export default [
     heading: "Grundschule",
     description:
       "Klasse 1-4",
+    id: "grundschule",
     items: [
       {
         image: imgMath,
@@ -66,6 +67,7 @@ export default [
   {
     heading: "Mittlere Reife",
     description: "Klasse 5-10",
+    id: "mittlere-reife",
     items: [
       {
         image: imgMath,
@@ -120,8 +122,9 @@ export default [
   },
   {
     heading: "Oberstufe",
-    description:
-      "Klasse 11-13",
+    description: "Klasse 11-13",
+    id: "oberstufe",
+
     items: [
             {
         image: imgMath,
@@ -157,6 +160,7 @@ export default [
     heading: "Ausbildung",
     description:
       "Ausbildungsberufe",
+      id:"ausbildung",
     items: [
       {
         image: imgDeutsch,
@@ -199,6 +203,7 @@ export default [
     heading: "Berufsfachliche Kompetenz",
     description:
       "Schwerpunkt KFZ",
+    id: 'berufsfachliche-kompetenz',
     items: [
       {
         image: imgKFZ,
@@ -227,6 +232,7 @@ export default [
     heading: "Hochschule",
     description:
       "Informatik/Mathe/Programmierung",
+    id:"hochschule",
     items: [
       {
         image: imghoehreMathe,

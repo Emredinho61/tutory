@@ -30,6 +30,10 @@ defineProps({
         required: true,
       },
     },
+    id: {
+      type: String,
+      required: true
+    }
   },
   col1: {
     type: String,
@@ -66,12 +70,13 @@ export default {
     </div>
     <div class="container mt-sm-5 mt-3">
       <div
-        v-for="({ heading, description, items }, index) in data"
+        v-for="({ heading, description, items, id }, index) in data"
         :class="`row ${index != 0 && index != -1 ? 'pt-lg-6' : ''}`"
         :key="heading"
       >
         <div :class="`${col1 ?? 'col-lg-3'}`">
           <div
+          :id="id"
             class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2"
             style="top: 100px"
           >
