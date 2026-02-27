@@ -78,8 +78,8 @@ defineProps({
             href: "/impressum"
           },
           {
-            name: "AGBs",
-            href: "/agbs"
+            name: "Datenschutz",
+            href: "/datenschutz"
           }
         ]
       }

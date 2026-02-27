@@ -301,10 +301,10 @@ watch(
                         <span>Impressum</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'agbs' }"
+                        :to="{ name: 'datenschutz' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>AGBs</span>
+                        <span>Datenschutz</span>
                       </RouterLink>
                     </div>
                   </div>
@@ -323,10 +323,10 @@ watch(
                   <span>Impressum</span>
                 </RouterLink>
                 <RouterLink
-                  :to="{ name: 'agbs' }"
+                  :to="{ name: 'datenschutz' }"
                   class="dropdown-item border-radius-md"
                 >
-                  <span>AGBs</span>
+                  <span>Datenschutz</span>
                 </RouterLink>
               </div>
             </div>

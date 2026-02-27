@@ -23,6 +23,8 @@ import ElDropdowns from "../layouts/sections/elements/dropdowns/DropdownsView.vu
 import ElProgressBars from "../layouts/sections/elements/progress-bars/ProgressBarsView.vue";
 import ElToggles from "../layouts/sections/elements/toggles/TogglesView.vue";
 import ElTypography from "../layouts/sections/elements/typography/TypographyView.vue";
+import ImpressumView from "../views/Legal/ImpressumView.vue";
+import DatenschutzView from "../views/Legal/DatenschutzView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -49,12 +51,12 @@ const router = createRouter({
     {
       path: "/impressum",
       name: "impressum",
-      component: ContactView,
+      component: ImpressumView,
     },
     {
-      path: "/agbs",
-      name: "agbs",
-      component: AuthorView,
+      path: "/datenschutz",
+      name: "datenschutz",
+      component: DatenschutzView,
     },
     {
       path: "/pages/landing-pages/basic",
