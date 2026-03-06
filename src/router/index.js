@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
 import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
 import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
-import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "../layouts/sections/page-sections/page-headers/HeadersView.vue";
 import PageFeatures from "../layouts/sections/page-sections/features/FeaturesView.vue";
@@ -42,11 +41,6 @@ const router = createRouter({
       path: "/kontakt",
       name: "kontakt",
       component: ContactView,
-    },
-    {
-      path: "/ueber-uns",
-      name: "ueber-uns",
-      component: AuthorView,
     },
     {
       path: "/impressum",

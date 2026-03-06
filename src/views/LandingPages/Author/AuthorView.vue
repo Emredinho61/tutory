@@ -13,7 +13,20 @@ import Contact from "./Sections/AuthorContact.vue";
 import image from "@/assets/aboutus/freiburg-skyline.jpg";
 </script>
 <template>
-  <DefaultNavbar transparent />
+    <div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <DefaultNavbar
+          :sticky="true"
+          :action="{
+            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
+            color: 'bg-gradient-success',
+            label: '+49 1234 5678',
+          }"
+        />
+      </div>
+    </div>
+  </div>
   <Header>
     <div
       class="page-header min-height-400"

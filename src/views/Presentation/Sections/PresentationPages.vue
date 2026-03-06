@@ -26,9 +26,8 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
             <div class="col-md-6 mt-md-0">
               <ExampleCard
                 class="shadow-lg"
-                title="Emre Bayazitoglu - CEO"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/about-us.jpg"
-                route="ueber-uns"
+                title="Usami Othman - Handlanger"
+                image="\src\assets\img\aboutus\Usami.jpeg"
               />
             </div>
             <div class="col-md-6 mt-md-0">

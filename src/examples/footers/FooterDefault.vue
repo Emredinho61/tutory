@@ -52,10 +52,6 @@ defineProps({
         name: "Unternehmen",
         items: [
           {
-            name: "Über Uns",
-            href: "/ueber-uns"
-          },
-          {
             name: "Leistungen",
             href: "/leistungen"
           }
@@ -111,7 +107,6 @@ defineProps({
                 <a
                   class="nav-link pe-1"
                   :href="link"
-                  target="_blank"
                   v-html="icon"
                 >
                 </a>
@@ -127,7 +122,7 @@ defineProps({
           <h6 class="text-sm">{{ name }}</h6>
           <ul class="flex-column ms-n3 nav">
             <li class="nav-item" v-for="item of items" :key="item.name">
-              <a class="nav-link" :href="item.href" target="_blank">
+              <a class="nav-link" :href="item.href" >
                 {{ item.name }}
               </a>
             </li>

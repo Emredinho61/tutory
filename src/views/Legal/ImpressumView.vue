@@ -1,5 +1,18 @@
 <template>
-<NavbarDefault></NavbarDefault>
+  <div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <DefaultNavbar
+          :sticky="true"
+          :action="{
+            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
+            color: 'bg-gradient-success',
+            label: '+49 1234 5678',
+          }"
+        />
+      </div>
+    </div>
+  </div>
   <Header>
     <div class="page-header min-vh-75" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
@@ -69,7 +82,9 @@ Sollten einzelne Bestimmungen dieser AGB ganz oder teilweise unwirksam sein, ble
 </template>
 <script setup>
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
-import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
+import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import Header from "../../examples/Header.vue";
+import vueMkHeader from "@/assets/legal/impressum2.jpg";
+
 
 </script>

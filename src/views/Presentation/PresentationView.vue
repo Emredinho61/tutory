@@ -127,7 +127,7 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-5 ms-auto">
             <h4 class="mb-1">Unterstütze uns auf Social Media!</h4>
-            <p class="lead mb-0">Teile deine POSITIVE Erfahrung mit deinen Freunden. Für jeden teilnehmenden Freund oder
+            <p class="lead mb-0">Teile deine Erfahrung mit deinen Freunden. Für jeden teilnehmenden Freund oder
               Freundin kriegst du zwei Nachhilfestunden umsonst.</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
