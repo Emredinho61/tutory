@@ -20,22 +20,16 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
       </div>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-8">
           <div class="row">
             <div class="col-md-6 mt-md-0">
-              <ExampleCard
-                class="shadow-lg"
-                title="Usami Othman - Handlanger"
-                image="\src\assets\img\aboutus\Usami.jpeg"
-              />
+              <h4>Usama Othman</h4>
+              <p class="lead mb-0">Maschinenbaustudent und KFZ-Meister</p>
             </div>
             <div class="col-md-6 mt-md-0">
-              <ExampleCard
-                class="shadow-lg"
-                title="Usami Othman - Handlanger"
-                image="\src\assets\img\aboutus\Usami.jpeg"
-              />
+              <h4>Emre Bayazitoglu</h4>
+               <p class="lead mb-0">B. sc. Informatik und Softwareentwickler</p>
             </div>
           </div>
         </div>
