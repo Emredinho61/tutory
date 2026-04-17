@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-4 me-auto mb-lg-0 mb-4 text-lg-start text-center">
           <h6 class="text-dark font-weight-bolder text-uppercase mb-lg-4 mb-3">
-            Material Design
+            Tutoratus
           </h6>
           <ul
             class="nav flex-row ms-n3 justify-content-lg-start justify-content-center mb-4 mt-sm-0"

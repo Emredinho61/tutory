@@ -134,7 +134,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        Tutoratus
       </RouterLink>
       <a
         href="pages/landing-pages/contact-us"

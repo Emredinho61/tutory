@@ -24,7 +24,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               :action="[
                 {
                   route: '/kontakt',
-                  label: 'Kontaktier Uns!',
+                  label: 'Kontaktiere Uns!',
                 },
               ]"
             />
