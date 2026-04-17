@@ -31,14 +31,14 @@ function sendEmail() {
   console.log(form);
   console.log(username);
   console.log(message);
-  emailjs.send("service_id", "template_id", {
+  emailjs.send(emailjs_service_id, emailjs_template_id, {
     user_name: username.value,
     user_email: email.value,
     time: new Date().toLocaleString(),
     message: message.value
-  }, "public_key")
+  }, emailjs_public_key)
     .then(() => {
-      console.log("that worked")
+      alert("Das hat geklappt. Vielen Dank für die Nachricht.")
     })
     .catch((error) => {
       console.error('EmailJS error:', error)
@@ -108,9 +108,6 @@ function sendEmail() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div v-if="info_sent.value === true">
-                    Deine Nachricht wurde an uns weitergeleitet. Wir melden uns zeitnah bei dir.
                   </div>
                 </form>
               </div>
